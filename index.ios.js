@@ -16,8 +16,8 @@ var RNShare = {
   test: function() {
     NativeRNShare.test();
   },
-  open: function(options) {
-  	NativeRNShare.open(options);
+  open: function(options, cb) {
+  	NativeRNShare.open(options, cb);
   }
 };
 
